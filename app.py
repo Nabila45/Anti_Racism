@@ -50,9 +50,13 @@ def extract_text_from_file(uploaded_file):
 st.set_page_config(page_title="SafeChat", page_icon="🤖", layout="wide")
 
 # Sidebar
-st.sidebar.title("🔍 Safe chat: AI-Powered Inclusion & Anti-Racism Support System")
-st.sidebar.write("💡Powered by [Nabila](#)")
-st.sidebar.write("📄 Upload any document and ask AI about it.")
+st.sidebar.title("🔍 A multilingual AI chatbot + real-time discrimination alert system that helps immigrants, refugees, and marginalized communities navigate healthcare, legal, and public services while also allowing users to report racial discrimination incidents in real-time. ")
+st.sidebar.write("💡Key Features")
+st.sidebar.write("AI Chatbot for Public Services 🏛️💬")
+st.sidebar.write("Real-Time Anti-Racism Incident Reporting 🚨")
+st.sidebar.write("Geolocation-Based Support & Alerts 🌍📢")
+st.sidebar.write("Community Engagement & Resources 🤝📚")
+st.sidebar.write("AI-Powered Real-Time Emergency Assistance 🚨")
 
 # Initialize chat history
 if "messages" not in st.session_state:
