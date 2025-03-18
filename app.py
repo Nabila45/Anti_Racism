@@ -52,6 +52,7 @@ st.set_page_config(page_title="SafeChat", page_icon="🤖", layout="wide")
 # Sidebar
 st.sidebar.title("🔍 A multilingual AI chatbot + real-time discrimination alert system that helps immigrants, refugees, and marginalized communities navigate healthcare, legal, and public services while also allowing users to report racial discrimination incidents in real-time. ")
 st.sidebar.write("💡Key Features[click here](https://anti-racism.tiiny.site)")
+st.sidebar.write("💡Key Features[click here](https://antiracism.tiiny.site)")
 st.sidebar.write("AI Chatbot for Public Services 🏛️💬 ")
 st.sidebar.write("Real-Time Anti-Racism Incident Reporting 🚨")
 st.sidebar.write("Geolocation-Based Support & Alerts 🌍📢")
